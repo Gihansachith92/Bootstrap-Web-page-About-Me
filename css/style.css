@@ -1,0 +1,150 @@
+/*------------------------------------------
+   color, font and variables setup
+   ---------------------------------------*/
+
+
+
+:root{
+ --c-primary: #975af9;
+ --c-secondry: #46a7f8;
+ --c-background: #e6e6e6;
+ --c-dark: #2d2d2d;
+ --c-black: #000000;
+ --font-base:"poppins" , sans-serif;
+
+}
+
+body {
+  font-family: var(--font-base);
+  font-size: 16px;
+  line-height: 1.6;
+} 
+
+.h1 .h2 .h3 .h4 .h5 .h6 {
+  font-weight: 600;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: var(--c-primary);
+}
+
+a:hover {
+  color: var(--c-secondry);
+}
+
+.section-padding {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*------------------------------------------
+   button css setup
+   ---------------------------------------*/
+
+.btn {
+  font-weight: 600 !important;
+ 
+}
+
+.btn-primary {
+  background-color: var(--c-primary) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--c-secondry) !important;
+}
+
+.btn-light {
+  background-color: var(--c-background) !important;
+}
+
+/*------------------------------------------
+   navbar css setup
+   ---------------------------------------*/
+.navbar {
+  font-family: var(--font-base);
+  font-size: 16px;
+  font-weight: 500;
+}  
+
+.navbar-dark {
+  background-color: var(--c-black);
+}
+   
+/*------------------------------------------
+   hero css setup
+   ---------------------------------------*/   
+#Hero {
+  background: url(../img/home/Hero-img.jpg);
+  background-position: top;
+  margin-top: -300px;
+  height: 1000px;
+}
+
+.herotext {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+/*------------------------------------------
+   About Me setup
+   ---------------------------------------*/   
+
+.brand-title {
+  font-size: 65px;
+  font-weight: 750;
+  font-family: var(--font-base);
+}   
+
+.brand-p {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: var(--font-base);
+} 
+
+.brand-p1 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--font-base);
+}
+
+.brand-title-light {
+  font-size: 55px;
+  font-weight: 650;
+  font-family: var(--font-base);
+  color: var(--c-background);
+}
+
+
+.tablestyle {
+  width: 100%;
+  height: auto;
+  font-size: 25px;
+  font-weight: 20;
+  font-family: var(--font-base);
+}
+
+
+.iconedit {
+  width: 100px;
+  height: 100px;
+  margin-left: 40px;
+}
+
+
+/*--------------------------
+   responsive navbar
+   ----------------------------*/
+  .navfix {
+    position: fixed ;
+    z-index: 100000 !important;
+  }
+
